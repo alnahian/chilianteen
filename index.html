@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html data-ng-app="chilianteen">
+	<head>
+		<title>Chilianteen | The House of Master Chili!</title>
+		
+		<link rel="stylesheet" href="stylesheets/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="stylesheets/font-awesome/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="stylesheets/style.css" />
+	
+		<script src="javascripts/angular.min.js"></script>
+		<script src="javascripts/angular-route.min.js"></script>
+		<script src="javascripts/angular-animate.min.js"></script>
+		<script src="javascripts/script.js"></script>
+	</head>
+	
+	<body>
+		<header>
+			<nav class="navbar navbar-default">
+				<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="/">Chilianteen!</a>
+				</div>
+					
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
+					<li><a href="#chili"><i class="fa fa-leaf fa-lg"></i> Chili</a></li>
+					<li><a href="#info"><i class="fa fa-microphone fa-lg"></i> Info</a></li>
+					<li><a href="#gallery"><i class="fa fa-cutlery fa-lg"></i> Gallery</a></li>
+					<li><a href="#quotes"><i class="fa fa-comments fa-lg"></i> Quotes</a></li>
+					<li><a href="#about"><i class="fa fa-envelope fa-lg"></i> About</a></li>
+				</ul>
+				</div>
+			</nav>
+		</header>
+	
+		<div>
+			<div data-ng-view=""></div>
+		<div>
+		
+		<footer class="text-center">
+			&copy all the chili fans !
+		</footer>
+	</body>
+</html>
