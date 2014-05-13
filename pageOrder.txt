@@ -1,0 +1,13 @@
+
+index (home page) - contains image, nav, motto, F/T/G+
+
+chili (the chili lifestory) - stroy, what is chili? how cultivated ? importance ?
+
+info (infos about chilis) - interesting infos, facts, myths
+
+gallery (imagese/videos) - images/videos about chili
+
+quotes (quotes about chili) - quotes about chili from different cultures, persons
+
+about (about us,contact) - information about us, contact form
+
