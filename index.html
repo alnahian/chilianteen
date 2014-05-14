@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html data-ng-app="chilianteen">
+<html ng-app="chilianteen">
 	<head>
 		<title>Chilianteen | The House of Master Chili!</title>
-		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="stylesheets/style.css" />
 		<link rel="stylesheet" href="stylesheets/bootstrap/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="stylesheets/font-awesome/css/font-awesome.min.css" />
-		<link rel="stylesheet" href="stylesheets/style.css" />
 	
 		<script src="javascripts/angular.min.js"></script>
 		<script src="javascripts/angular-route.min.js"></script>
 		<script src="javascripts/angular-animate.min.js"></script>
+		<script src="javascripts/jquery.min.js"></script>
 		<script src="javascripts/script.js"></script>
+		<script>
+		</script>
 	</head>
 	
-	<body>
+	<body ng-controller="mainController">
 		<header>
-			<nav class="navbar navbar-inverse navbar-fixed-top">
+			<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
 				<div class="container">
 				<div class="navbar-header">
 					<a class="navbar-brand" href="/">Chilianteen !</a>
@@ -32,13 +35,15 @@
 				</div>
 			</nav>
 		</header>
-	
-		<div>
-			<div data-ng-view=""></div>
-		<div>
+		
+		<div class="container">
+		<div id="main">
+			<div ng-view></div>
+		</div>
+		</div>
 		
 		<footer class="text-center">
-			<p></br></br></br>&copy; all the chili fans !</p>
+			<p>&copy; all the chili fans !</p>
 		</footer>
 	</body>
 </html>
